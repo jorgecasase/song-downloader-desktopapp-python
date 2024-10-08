@@ -1,0 +1,1 @@
+pyinstaller -F --onefile --noconsole --add-binary "C:/Users/Jorge Casas/Desktop/Archive/ffmpeg/ffmpeg.exe;ffmpeg/" --add-data "C:/Users/Jorge Casas/Desktop/Archive/logo.ico;." --icon=logo.ico main.py --add-data "C:/Users/Jorge Casas/Desktop/Archive/background.png;." --add-data "C:/Users/Jorge Casas/Desktop/Archive/title.png;."
